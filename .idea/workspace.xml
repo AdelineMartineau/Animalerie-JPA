@@ -5,21 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4795acf4-52b5-4ea3-af8b-ec0f7fd49f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/FishLivEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animalerie/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +61,7 @@
       <workItem from="1677694895637" duration="40000" />
       <workItem from="1677778758684" duration="4000" />
       <workItem from="1677779357609" duration="934000" />
-      <workItem from="1677780310622" duration="3659000" />
+      <workItem from="1677780310622" duration="7357000" />
     </task>
     <servers />
   </component>
