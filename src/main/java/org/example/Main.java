@@ -57,5 +57,10 @@ public class Main {
 
                 em.getTransaction().commit();
 
+                TypedQuery<Animal> findAllQUery = em.createQuery("from animal where petstore='2'", Animal.class);
+                System.out.println(findAllQUery.getResultList());
+
+                em.close();
+                emf.close();
         }
 }
