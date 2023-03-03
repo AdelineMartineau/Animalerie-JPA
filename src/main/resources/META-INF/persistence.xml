@@ -8,29 +8,24 @@
         <!-- Paramètres d'accès à la BDD -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!--class -->
-        <class>animalerie.Address</class>
-        <class>animalerie.Animal</class>
-        <class>animalerie.Cat</class>
-        <class>animalerie.Fish</class>
-        <class>animalerie.PetStore</class>
-        <class>animalerie.Product</class>
-        <class>animalerie.ProductType</class>
+        <class>models.Address</class>
+        <class>models.Animal</class>
+        <class>models.Cat</class>
+        <class>models.Fish</class>
+        <class>models.PetStore</class>
+        <class>models.Product</class>
         <properties>
             <!-- desactiver l'autodetection des classes de type @Entity -->
             <property name="hibernate.archive.autodetection" value="" />
-
             <!-- Activation de la génération des tables manquantes uniquement -->
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-
             <!-- Drop and create à chaque redémarrage -->
             <property name="javax.persistence.schema-generation.database.action"
                       value="drop-and-create"/>
-
             <!-- Affichage des requêtes SQL -->
             <property name="hibernate.show_sql" value="true" />
             <property name="format_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
-
             <!-- Paramètres d'accès à la BDD -->
             <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://127.0.0.1:3306/petstore" />
             <property name="javax.persistence.jdbc.user" value="root" />

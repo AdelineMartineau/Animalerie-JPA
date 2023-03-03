@@ -1,6 +1,7 @@
-package animalerie;
+package models;
 import jakarta.persistence.*;
-@Entity
+
+@Entity(name = "address")
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

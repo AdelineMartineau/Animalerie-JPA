@@ -1,10 +1,8 @@
-package animalerie;
+package models;
 import jakarta.persistence.*;
-
 import java.util.List;
-import java.util.Set;
 
-@Entity
+@Entity(name = "product")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,12 +1,18 @@
-package animalerie;
+package models;
 import jakarta.persistence.*;
 
-@Entity
+import java.util.Date;
+
+@Entity(name="fish")
 public class Fish extends Animal {
     @Column(length = 6)
     @Enumerated(EnumType.STRING)
     private FishLivEnv fishLivEnv;
-    public Fish() {
+    public Fish() {}
+
+    public Fish(Date birthDate, String color, PetStore petStore, FishLivEnv fishLivEnv) {
+        super(birthDate, color, petStore);
+        this.fishLivEnv = fishLivEnv;
     }
     public Fish(FishLivEnv fishLivEnv) {
         this.fishLivEnv = fishLivEnv;

@@ -1,4 +1,4 @@
-package animalerie;
+package models;
 
 public enum ProductType {
     food,

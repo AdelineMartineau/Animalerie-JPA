@@ -1,8 +1,8 @@
-package animalerie;
+package models;
 import jakarta.persistence.*;
 import java.util.List;
 
-@Entity
+@Entity(name = "petstore")
 public class PetStore {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,14 +12,16 @@ public class PetStore {
     @Column(length = 100)
     private String managerName;
 
-    public PetStore() {
-    }
-    public PetStore(String name, String managerName ) {
+    public PetStore() {}
+    public PetStore(String name, String managerName, List<Product> products, Address address ) {
         this.name = name;
         this.managerName = managerName;
-    }
+        this.products = products;
+        this.address = address;
 
+    }
     @OneToOne
+    @JoinColumn(name = "address_id")
     private Address address;
     public Address getAddress() {
         return address;
@@ -28,20 +30,19 @@ public class PetStore {
         this.address = address;
     }
     @ManyToMany
-    @JoinTable(name="PETSTORPRODUCT",
-            joinColumns= @JoinColumn(name="IDPETSTORE", referencedColumnName="ID"),
-            inverseJoinColumns= @JoinColumn(name="IDPRODUCT", referencedColumnName="ID")
+    @JoinTable(name="petstorproduct",
+            joinColumns= @JoinColumn(name="idpetstore"),
+            inverseJoinColumns= @JoinColumn(name="idproduct")
     )
     private List<Product> products;
+    @OneToMany(mappedBy="petstore")
+    private List<Animal> animals;
     public void setProducts(List<Product> products) {
         this.products = products;
     }
     public List<Product> getProducts() {
         return this.products;
     }
-
-    @OneToMany(mappedBy="petstore")
-    private List<Animal> animals;
     public List<Animal> getAnimals() {
         return animals;
     }

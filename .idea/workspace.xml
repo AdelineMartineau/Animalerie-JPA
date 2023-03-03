@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4795acf4-52b5-4ea3-af8b-ec0f7fd49f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/FishLivEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/FishLivEnv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/PetStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +53,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="TestJPA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TestJPA" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="jpa-animalerie" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestJPA" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +85,8 @@
       <workItem from="1677778758684" duration="4000" />
       <workItem from="1677779357609" duration="934000" />
       <workItem from="1677780310622" duration="7357000" />
-      <workItem from="1677829359008" duration="7035000" />
+      <workItem from="1677829359008" duration="10135000" />
+      <workItem from="1677859209016" duration="3245000" />
     </task>
     <servers />
   </component>

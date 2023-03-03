@@ -1,4 +1,4 @@
-USE animalerie;
+USE models;
 
 create table address (
      ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -59,4 +59,4 @@ INSERT INTO petstore VALUES (3, '9128', 'Isa Bella', 3);
 INSERT INTO animal VALUES (1, '2021-01-12', 'black', 1);
 INSERT INTO animal VALUES (2, '2020-02-06', 'brown', 2);
 INSERT INTO animal VALUES (3, '2019-01-05', 'white', 3);
-INSERT INTO animal VALUES (4, '2018-05-12', 'gray', 1);USE animalerie;
+INSERT INTO animal VALUES (4, '2018-05-12', 'gray', 1);USE models;
