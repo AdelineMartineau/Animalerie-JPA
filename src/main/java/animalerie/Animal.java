@@ -1,8 +1,9 @@
 package animalerie;
 import jakarta.persistence.*;
 import java.time.LocalDate;
-
-public class Animal {
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Animal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -18,10 +19,13 @@ public class Animal {
         this.color = color;
     }
 
+    @ManyToOne
+    @JoinColumn(name="IDPETSTORE")
+    private PetStore petstore;
+
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }

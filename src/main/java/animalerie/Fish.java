@@ -1,7 +1,8 @@
 package animalerie;
 import jakarta.persistence.*;
 
-public class Fish {
+@Entity
+public class Fish extends Animal {
     @Column(length = 6)
     @Enumerated(EnumType.STRING)
     private FishLivEnv fishLivEnv;

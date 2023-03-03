@@ -1,7 +1,8 @@
 package animalerie;
 import jakarta.persistence.*;
 
-public class Cat {
+@Entity
+public class Cat extends Animal {
     @Column(length = 6)
     @Enumerated(EnumType.STRING)
     private String chipId;

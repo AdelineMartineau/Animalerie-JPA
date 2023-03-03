@@ -1,6 +1,10 @@
 package animalerie;
 import jakarta.persistence.*;
 
+import java.util.List;
+import java.util.Set;
+
+@Entity
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,7 +27,14 @@ public class Product {
         this.prodtype = prodtype;
         this.price = price;
     }
-
+    @ManyToMany(mappedBy="products")
+    private List<PetStore> petstores;
+    public void setPetstores(List<PetStore> petstores) {
+        this.petstores = petstores;
+    }
+    public List<PetStore> getPetstores() {
+        return this.petstores;
+    }
     public int getId() {
         return id;
     }
