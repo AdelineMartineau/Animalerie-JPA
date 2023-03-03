@@ -1,7 +1,6 @@
 package animalerie;
 import jakarta.persistence.*;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 public class PetStore {
@@ -22,7 +21,12 @@ public class PetStore {
 
     @OneToOne
     private Address address;
-
+    public Address getAddress() {
+        return address;
+    }
+    public void setAddress(Address address) {
+        this.address = address;
+    }
     @ManyToMany
     @JoinTable(name="PETSTORPRODUCT",
             joinColumns= @JoinColumn(name="IDPETSTORE", referencedColumnName="ID"),
@@ -44,27 +48,21 @@ public class PetStore {
     public void setAnimals( List<Animal> clients ) {
         this.animals = animals;
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public String getManagerName() {
         return managerName;
     }
-
     public void setManagerName(String managerName) {
         this.managerName = managerName;
     }

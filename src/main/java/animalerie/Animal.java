@@ -8,14 +8,14 @@ public abstract class Animal {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(length = 6)
-    private LocalDate birth;
+    private LocalDate birthDate;
     @Column(length = 100)
     private String color;
 
     public Animal() {
     }
     public Animal(LocalDate birth, String color ) {
-        this.birth = birth;
+        this.birthDate = birth;
         this.color = color;
     }
 
@@ -29,25 +29,20 @@ public abstract class Animal {
     public void setId(int id) {
         this.id = id;
     }
-
-    public LocalDate getBirth() {
-        return birth;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
-
-    public void setBirth(LocalDate birth) {
-        this.birth = birth;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
-
     public String getColor() {
         return color;
     }
-
     public void setColor(String color) {
         this.color = color;
     }
-
     @Override
     public String toString() {
-        return "Animal{" + "birth='" + birth + '\'' + ", color='" + color +'}';
+        return "Animal{" + "Date naissance='" + birthDate + '\'' + ", color='" + color +'}';
     }
 }

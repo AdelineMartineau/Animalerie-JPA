@@ -38,42 +38,34 @@ public class Product {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getCode() {
         return code;
     }
-
     public void setCode(String code) {
         this.code = code;
     }
-
     public String getLabel() {
         return label;
     }
-
     public void setLabel(String label) {
         this.label = label;
     }
-
     public ProductType getProdtype() {
         return prodtype;
     }
-
     public void setProdtype(ProductType prodtype) {
         this.prodtype = prodtype;
     }
-
     public Double getPrice() {
         return price;
     }
-
     public void setPrice(Double price) {
         this.price = price;
     }
+
     @Override
     public String toString() {
         return "Animal{" + "code='" + code + '\'' + ", label='" + label + ", prodtype='" + prodtype + ", price='" + price + '}';

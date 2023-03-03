@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4795acf4-52b5-4ea3-af8b-ec0f7fd49f8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Animal.java" afterDir="false" />
@@ -12,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/PetStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animalerie/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,26 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="TestJPA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestJPA" />
+      <module name="jpa-animalerie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestJPA" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +82,7 @@
       <workItem from="1677778758684" duration="4000" />
       <workItem from="1677779357609" duration="934000" />
       <workItem from="1677780310622" duration="7357000" />
-      <workItem from="1677829359008" duration="3296000" />
+      <workItem from="1677829359008" duration="7035000" />
     </task>
     <servers />
   </component>
